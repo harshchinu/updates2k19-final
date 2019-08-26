@@ -23,12 +23,12 @@
 <!-- font e -->
 
 	<!-- <link rel="stylesheet" type="text/css" href="css/screen.css"> -->
-  <link rel="stylesheet" type="text/css" href="css/screeen.css">
+      <link rel="stylesheet" type="text/css" href="css/screeen.css">
     <link rel="stylesheet" type="text/css" href="css/freelancer.css">	
     <link rel="stylesheet" type="text/css" href="css/sponosor.css">
     <link rel="stylesheet" type="text/css" href="css/menu_updates2k19.css">
 
-  <script> type="text/javascript" src="js/ScreenBackg.js"></script>
+  <script type="text/javascript" src="js/ScreenBackg.js"> </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
 
@@ -40,12 +40,12 @@
 
 <!-- updats2k19 font st -->  
 
-	<style type="text/css">
-		*{
-			scroll-behavior: smooth;
-		}
+<style>
+*{
+scroll-behavior: smooth;
+}
 
-    #TopScrolBtn {  /*topScrollB*/
+#TopScrolBtn {  /*topScrollB*/
       display: none;
       position: fixed;
       bottom: 20px;
@@ -116,8 +116,22 @@
   line-height: 1em;
   transform-origin: 0 0;
 }
+    
+    
+.portfolio-modal .close {
+  position: absolute;
+  z-index: 1;
+  right: 1.5rem;
+  top: 1rem;
+  font-size: 3rem;
+  line-height: 3rem;
+  color: #1abc9c;
+  opacity: 1;
+}
       
 </style>
+      
+
 </head>
 <body id="page-top">
 
@@ -227,6 +241,7 @@ anime.timeline({loop: true})
         <div class="divider-custom-line"></div>
         <div class="divider-custom-icon">
           <i class="fas fa-star"></i>
+            <i class="fas fa-times"</i>
         </div>
         <div class="divider-custom-line"></div>
       </div>
@@ -234,6 +249,7 @@ anime.timeline({loop: true})
       <!-- Portfolio Grid Items -->
       <div class="row">
 
+        
         <!-- Portfolio Item 1 -->
         <div class="col-md-6 col-lg-4">
           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
@@ -549,8 +565,8 @@ anime.timeline({loop: true})
   
   
   <!-- Portfolio Modal 1 -->
-  
-   <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+         
+ <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
