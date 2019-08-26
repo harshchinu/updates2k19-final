@@ -19,17 +19,17 @@ svg {
 }
 
 .text-copy:nth-child(1){
-  stroke: red;
+  stroke: gray;
   animation-delay: -1;
 }
 
 .text-copy:nth-child(2){
-  stroke: white;
-  animation-delay: -2s;
+  stroke:white;
+  animation-delay: -2s;     
 }
 
 .text-copy:nth-child(3){
-  stroke: #FDB731;
+  stroke: orange;
   animation-delay: -3s;
 }
 
@@ -39,7 +39,7 @@ svg {
 }
 
 .text-copy:nth-child(5){
-  stroke: pink;
+  stroke: #FDB731;
   animation-delay: -5s;
 }
 
