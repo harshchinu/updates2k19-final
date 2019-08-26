@@ -79,10 +79,10 @@
 	margin-top: 5%;	/*event*/
 }
 
-#about{
+#about_back{
 	height: 40%;
 }
-#about_text{
+#about{
 	margin-top: -8%;
 		font-size:35px;
 		padding-bottom: 1px;
@@ -92,14 +92,34 @@
 		padding-bottom: 1px;	
 }
 #team{
+		margin-top: -4%; 
 		font-size:35px;
 		padding-bottom: 1px;	
 }
-
-/*.img-fluid:hover{
-	background-color: red;
-}*/
-
+#Faculty{
+	color: #212529;
+	font-weight: bold;
+}
+#Student{
+	color: #212529;
+	font-weight: bold;
+}
+#Faculty_list{
+	color:black; 
+	font-family: 'Lexend Mega', sans-serif;
+	font-size: 15px;
+}
+#Student_list{
+	color:black; 
+	font-family: 'Lexend Mega', sans-serif;
+	font-size: 15px;
+}
+#address_section{
+	margin-top: -4%;
+}
+#address{
+	margin-top: -2%;
+}
 
 
 
@@ -173,11 +193,6 @@
 		width: 45%;
 	}
 	
-
-	#about_text{
-		margin-top: -20%;
-	}
-
 	#Events{
 		margin-top: -5%;
 		font-size:25px;
@@ -187,21 +202,48 @@
 	margin-top: 5%;	/*event*/
 }
 
-#about{
+#about_back{
 	height: 80%;
+	margin-top: -30%;
 }
-#about_text{
-	margin-top: -8%;
-		font-size:35px;
+#about{
+	margin-top: -25%;
+		font-size:25px;
 		padding-bottom: 1px;
 }
 #Sponsors{
-		font-size:35px;
+		font-size:25px;
 		padding-bottom: 1px;	
 }
 #team{
-		font-size:35px;
-		padding-bottom: 1px;	
+		font-size:25px;
+		padding-bottom: 1px;
+		margin-top: -15%;	
 }
-
+#Faculty{
+	color: #212529;
+	font-size: 20px;
+	font-weight: bold;
+}
+#Student{
+	color: #212529;
+	font-size: 20px;
+	font-weight: bold;
+}
+#Faculty_list{
+	color:black; 
+	font-family: 'Lexend Mega', sans-serif;
+	font-size: 15px;
+}
+#Student_list{
+	color:black; 
+	font-family: 'Lexend Mega', sans-serif;
+	font-size: 15px;
+}
+#address_section{
+	margin-top: -15%;
+}
+#address{
+	margin-top: -15%;
+}
 }
